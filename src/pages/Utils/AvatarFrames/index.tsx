@@ -405,7 +405,7 @@ const AvatarFrames: React.FC = () => {
           className="monthlyCard"
           title={
             <>
-              <div>摸鱼月卡</div>
+              <div>渔月卡</div>
               <div className="cardSubtitle">支持网站，享受更多特权</div>
             </>
           }
@@ -499,9 +499,9 @@ const AvatarFrames: React.FC = () => {
         <div className={styles.title}>
           <h1>
             <ShopOutlined style={{ marginRight: 8 }} />
-            摸鱼商店
+            渔商店
           </h1>
-          <p className={styles.subtitle}>用摸鱼积分兑换你想要的物品吧</p>
+          <p className={styles.subtitle}>用渔积分兑换你想要的物品吧</p>
         </div>
         <div className={styles.userPreview}>
           <div className={styles.avatarWithFrame}>

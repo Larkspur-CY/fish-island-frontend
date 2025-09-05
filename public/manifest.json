@@ -1,7 +1,7 @@
 {
-  "name": "摸鱼岛",
-  "short_name": "摸鱼岛",
-  "description": "摸鱼岛 - 有趣的在线交流平台",
+  "name": "渔岛",
+  "short_name": "渔岛",
+  "description": "渔岛 - 有趣的在线交流平台",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

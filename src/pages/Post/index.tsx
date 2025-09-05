@@ -742,7 +742,7 @@ const PostPage: React.FC = () => {
             </Card>
 
             <Card title="社区公告" className="announcement-card">
-              <p>🎉 欢迎来到摸鱼论坛！</p>
+              <p>🎉 欢迎来到渔论坛！</p>
               <p>🚀 新功能上线：表情包发送功能已开放</p>
               <p>📢 社区规则已更新，请遵守社区规范</p>
             </Card>

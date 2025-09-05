@@ -81,7 +81,7 @@ const Feedback: React.FC = () => {
                   color: '#1890ff',
                   lineHeight: '32px'
                 }}>
-                  QQ群号：695425036（暗号：摸鱼）
+                  QQ群号：695425036（暗号：渔）
                 </span>
                 <Button
                   type="primary"
@@ -116,7 +116,7 @@ const Feedback: React.FC = () => {
                     e.currentTarget.style.boxShadow = '0 2px 8px rgba(24, 144, 255, 0.2)';
                   }}
                 >
-                  【腾讯文档】摸鱼岛需求与Bug
+                  【腾讯文档】渔岛需求与Bug
                 </Button>
               </div>
             </div>
@@ -154,7 +154,7 @@ const Feedback: React.FC = () => {
             </div>
 
             <div style={{ marginBottom: 32 }}>
-              {renderTitle(<MessageOutlined />, '2. 摸鱼聊天室')}
+              {renderTitle(<MessageOutlined />, '2. 渔聊天室')}
               {renderFeatureList([
                 '发送 emoji 表情包',
                 '发送搜狗在线表情包',
@@ -171,7 +171,7 @@ const Feedback: React.FC = () => {
             </div>
 
             <div style={{ marginBottom: 32 }}>
-              {renderTitle(<ReadOutlined />, '3. 摸鱼阅读')}
+              {renderTitle(<ReadOutlined />, '3. 渔阅读')}
               {renderFeatureList([
                 '在线搜书功能',
                 '小窗口观看功能',

@@ -20,7 +20,7 @@ const Settings: ProLayoutProps & {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: userSiteName || '摸鱼岛',
+  title: userSiteName || '渔岛',
   logo: 'https://api.oss.cqbo.com/moyu/moyu.png',
   pwa: true,
   // iconfontUrl: 'https://api.oss.cqbo.com/moyu/moyu.png',

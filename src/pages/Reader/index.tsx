@@ -601,7 +601,7 @@ export default function ReaderList() {
             <BookOutlined style={{ fontSize: 24, color: token.colorPrimary, marginRight: 8 }} />
           )}
           <Title style={{ color: token.colorText, margin: 0 }} level={4}>
-            {isStudyMode ? '努力学习' : '摸鱼阅读'}
+            {isStudyMode ? '努力学习' : '渔阅读'}
           </Title>
         </div>
         <Space>
@@ -615,7 +615,7 @@ export default function ReaderList() {
               />
             </Badge>
           </Tooltip>
-          <Tooltip title={isStudyMode ? "切换到摸鱼模式" : "切换到学习模式"}>
+          <Tooltip title={isStudyMode ? "切换到渔模式" : "切换到学习模式"}>
             <Button
               type="text"
               icon={isStudyMode ? <BookOutlined /> : <LaptopOutlined />}

@@ -192,7 +192,7 @@ const Home: React.FC = () => {
           className={styles.themeSwitch}
           style={{ color: '#ffffff', fontSize: '16px' }}
         >
-          摸鱼模式
+          渔模式
         </Button>
       </div>
       <Dropdown

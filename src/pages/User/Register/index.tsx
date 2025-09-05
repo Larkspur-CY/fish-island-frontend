@@ -57,7 +57,7 @@ const Register: React.FC = () => {
             },
           }}
           logo={<img alt="logo" src={SYSTEM_LOGO}/>}
-          title="摸鱼岛"
+          title="渔岛"
           initialValues={{
             autoLogin: true,
           }}

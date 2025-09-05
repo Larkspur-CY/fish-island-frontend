@@ -291,7 +291,7 @@ const ReaderSettings: React.FC<ReaderSettingsProps> = ({ settings, onSave }) => 
         label={
           <Space>
             <span>快速隐藏阅读窗口</span>
-            <Tooltip title="设置触发条件，让阅读窗口快速隐藏，方便摸鱼时快速隐藏内容">
+            <Tooltip title="设置触发条件，让阅读窗口快速隐藏，方便渔时快速隐藏内容">
               <QuestionCircleOutlined />
             </Tooltip>
           </Space>
@@ -310,8 +310,8 @@ const ReaderSettings: React.FC<ReaderSettingsProps> = ({ settings, onSave }) => 
       <Form.Item
         label={
           <Space>
-            <span>摸鱼阅读Token</span>
-            <Tooltip title="用于访问摸鱼阅读API的Token，默认为游客模式">
+            <span>渔阅读Token</span>
+            <Tooltip title="用于访问渔阅读API的Token，默认为游客模式">
               <QuestionCircleOutlined />
             </Tooltip>
           </Space>
@@ -325,7 +325,7 @@ const ReaderSettings: React.FC<ReaderSettingsProps> = ({ settings, onSave }) => 
         label={
           <Space>
             <span>API服务地址</span>
-            <Tooltip title="摸鱼阅读API服务器地址，默认为官方服务器">
+            <Tooltip title="渔阅读API服务器地址，默认为官方服务器">
               <QuestionCircleOutlined />
             </Tooltip>
           </Space>

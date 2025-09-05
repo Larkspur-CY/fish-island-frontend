@@ -8,13 +8,13 @@ export default [
   {path: '/index', icon: 'BarsOutlined', component: './Index', name: '最新', requireAuth: false},
   {path: '/home', layout: false, icon: 'smile', component: './Home', name: '浏览器页面', requireAuth: false},
   {path: '/todo', icon: 'CalendarOutlined', component: './TODO', name: '每日待办', requireAuth: true},
-  {path: '/chat', icon: 'MessageOutlined', component: './Chat', name: '摸鱼室', requireAuth: true},
-  {path: '/post', icon: 'InstagramOutlined', component: './Post', name: '摸鱼论坛', requireAuth: true},
+  {path: '/chat', icon: 'MessageOutlined', component: './Chat', name: '渔室', requireAuth: true},
+  {path: '/post', icon: 'InstagramOutlined', component: './Post', name: '渔论坛', requireAuth: true},
   {path: '/post/create', layout: false, icon: 'EditOutlined', component: './Post/Create', requireAuth: true},
   {path: '/post/edit/:id', layout: false, component: './Post/Edit', requireAuth: true},
   {path: '/post/:id',component: './Post/Detail', requireAuth: true},
-  {path: '/reader', icon: 'BookOutlined', component: './Reader', name: '摸鱼阅读', requireAuth: true},
-  {path: '/pet', icon: 'HeartOutlined', component: './Pet', name: '摸鱼宠物', requireAuth: true},
+  {path: '/reader', icon: 'BookOutlined', component: './Reader', name: '渔阅读', requireAuth: true},
+  {path: '/pet', icon: 'HeartOutlined', component: './Pet', name: '渔宠物', requireAuth: true},
   { path: '/draw', icon: 'FundViewOutlined', component: './Draw', name: '你画我猜', requireAuth: true },
   {path: '/draw/:id',component: './Draw/Detail', requireAuth: true},
   {
@@ -128,7 +128,7 @@ export default [
     icon: 'AccountBookOutlined',
     path: '/avatarFrames',
     component: './Utils/AvatarFrames',
-    name: '摸鱼商店',
+    name: '渔商店',
     requireAuth: true
   },
   {

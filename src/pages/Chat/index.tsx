@@ -156,7 +156,7 @@ const ChatRoom: React.FC = () => {
   const loadingRef = useRef(false); // 添加loadingRef防止重复请求
 
   const [announcement, setAnnouncement] = useState<string>(
-    '欢迎来到摸鱼聊天室！🎉 这里是一个充满快乐的地方~。致谢：感谢 yovvis 大佬赞助的服务器资源🌟，域名9月份过期，请移步新域名：<a href="https://yucoder.cn/" target="_blank" rel="noopener noreferrer">https://yucoder.cn/</a>',
+    '欢迎来到渔聊天室！🎉 这里是一个充满快乐的地方~。致谢：感谢 yovvis 大佬赞助的服务器资源🌟，域名9月份过期，请移步新域名：<a href="https://yucoder.cn/" target="_blank" rel="noopener noreferrer">https://yucoder.cn/</a>',
   );
   const [showAnnouncement, setShowAnnouncement] = useState<boolean>(true);
   const [isAnnouncementModalVisible, setIsAnnouncementModalVisible] = useState(false);
@@ -563,7 +563,7 @@ const ChatRoom: React.FC = () => {
         // 添加机器人用户
         const botUser = {
           id: '-1',
-          name: '摸鱼助手',
+          name: '渔助手',
           avatar:
             'https://api.oss.cqbo.com/moyu/user_avatar/1/hYskW0jH-34eaba5c-3809-45ef-a3bd-dd01cf97881b_478ce06b6d869a5a11148cf3ee119bac.gif',
           level: 1,
@@ -571,7 +571,7 @@ const ChatRoom: React.FC = () => {
           status: '在线',
           points: 9999,
           region: '鱼塘',
-          country: '摸鱼岛',
+          country: '渔岛',
           avatarFramerUrl: '',
           titleId: 0,
           titleIdList: '',
@@ -1377,8 +1377,8 @@ const ChatRoom: React.FC = () => {
       closeMobileToolbar();
     }
 
-    // 检查是否输入了#摸鱼日历 - 这个功能必须立即响应
-    if (value === '#摸鱼日历') {
+    // 检查是否输入了#渔日历 - 这个功能必须立即响应
+    if (value === '#渔日历') {
       fetchMoyuCalendar();
       setInputValue(''); // 清空输入框，因为这是触发词
       setShouldShowSendButton(false); // 重置发送按钮状态
@@ -2116,7 +2116,7 @@ const ChatRoom: React.FC = () => {
     };
   }, []);
 
-  // 修改获取摸鱼日历的函数
+  // 修改获取渔日历的函数
   const fetchMoyuCalendar = async () => {
     try {
       setIsLoadingMoyu(true);
@@ -2127,10 +2127,10 @@ const ChatRoom: React.FC = () => {
         // 更新发送按钮状态
         setShouldShowSendButton(true);
       } else {
-        messageApi.error('获取摸鱼日历失败');
+        messageApi.error('获取渔日历失败');
       }
     } catch (error) {
-      messageApi.error('获取摸鱼日历失败');
+      messageApi.error('获取渔日历失败');
     } finally {
       setIsLoadingMoyu(false);
     }
@@ -2557,7 +2557,7 @@ const ChatRoom: React.FC = () => {
     }
   };
 
-  // 添加摸鱼宠物相关状态
+  // 添加渔宠物相关状态
   const [isPetModalVisible, setIsPetModalVisible] = useState<boolean>(false);
   const [currentPetUserId, setCurrentPetUserId] = useState<string | null>(null);
 
@@ -2627,7 +2627,7 @@ const ChatRoom: React.FC = () => {
           setIsPetModalVisible(true);
         }} />
       
-      {/* 摸鱼宠物组件 */}
+      {/* 渔宠物组件 */}
       <MoyuPet
         visible={isPetModalVisible}
         onClose={() => {
@@ -2971,7 +2971,7 @@ const ChatRoom: React.FC = () => {
                   setIsPetModalVisible(true);
                 }}>
                   <BugOutlined className={styles.moreOptionsIcon} />
-                  <span>摸鱼宠物</span>
+                  <span>渔宠物</span>
                 </div>
                 {(currentUser?.userRole === 'admin' || (currentUser?.level && currentUser.level >= 6) || currentUser?.vip) && (
                   <div className={styles.moreOptionsItem} onClick={() => setIsRedPacketModalVisible(true)}>
@@ -2981,7 +2981,7 @@ const ChatRoom: React.FC = () => {
                 )}
                 <div className={styles.moreOptionsItem} onClick={fetchMoyuCalendar}>
                   <CalendarOutlined className={styles.moreOptionsIcon} />
-                  <span>摸鱼日历</span>
+                  <span>渔日历</span>
                 </div>
                 <div className={styles.moreOptionsItem} onClick={() => fileInputRef.current?.click()}>
                   <PaperClipOutlined className={styles.moreOptionsIcon} />
@@ -3101,7 +3101,7 @@ const ChatRoom: React.FC = () => {
                 <div className={styles.mobileToolIcon}>
                   <CalendarOutlined />
                 </div>
-                <div className={styles.mobileToolText}>摸鱼日历</div>
+                <div className={styles.mobileToolText}>渔日历</div>
               </div>
             </div>
             <div className={styles.mobileToolRow}>
@@ -3109,7 +3109,7 @@ const ChatRoom: React.FC = () => {
                 <div className={styles.mobileToolIcon}>
                   <BugOutlined />
                 </div>
-                <div className={styles.mobileToolText}>摸鱼宠物</div>
+                <div className={styles.mobileToolText}>渔宠物</div>
               </div>
               <div className={styles.mobileTool} onClick={() => handleMobileToolClick('speedMode')}>
                 <div className={styles.mobileToolIcon}>

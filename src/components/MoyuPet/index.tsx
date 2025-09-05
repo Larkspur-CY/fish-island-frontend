@@ -507,7 +507,7 @@ const MoyuPet: React.FC<MoyuPetProps> = ({ visible, onClose, otherUserId, otherU
 
     return (
       <Modal
-        title="创建你的摸鱼宠物"
+        title="创建你的渔宠物"
         open={visible}
         onCancel={onClose}
         footer={null}
@@ -551,7 +551,7 @@ const MoyuPet: React.FC<MoyuPetProps> = ({ visible, onClose, otherUserId, otherU
 
     return (
       <Modal
-        title="我的摸鱼宠物"
+        title="我的渔宠物"
         open={visible}
         onCancel={onClose}
         footer={null}
@@ -1042,7 +1042,7 @@ const MoyuPet: React.FC<MoyuPetProps> = ({ visible, onClose, otherUserId, otherU
         <div className={styles.petModalTitle}>
           <span className={styles.petIcon}>🐟</span>
           <span>
-            {isOtherUser ? `${otherUserName || '用户'}的宠物` : '我的摸鱼宠物'}
+            {isOtherUser ? `${otherUserName || '用户'}的宠物` : '我的渔宠物'}
             <Popover
               content={<PetRules />}
               title="宠物系统说明"

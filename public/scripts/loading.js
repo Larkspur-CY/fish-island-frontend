@@ -1,7 +1,7 @@
 /**
  * loading 占位
  * 解决首次加载时白屏的问题
- * 摸鱼风格加载页面
+ * 渔风格加载页面
  */
 (function () {
   const _root = document.querySelector('#root');
@@ -253,16 +253,16 @@
           <div class="fish"></div>
         </div>
 
-        <div class="loading-text">摸鱼时间到... 🎏</div>
-        <div class="loading-subtext">正在寻找最佳摸鱼姿势 🏊‍♂️</div>
+        <div class="loading-text">渔时间到... 🎏</div>
+        <div class="loading-subtext">正在寻找最佳渔姿势 🏊‍♂️</div>
 
         <div class="fun-facts">
           ${[
-            "摸鱼小贴士：假装在键盘上打字，实际上是在玩贪吃蛇 🐍",
-            "摸鱼小贴士：把Excel打开，其实在玩2048 🎮",
-            "摸鱼小贴士：戴着耳机假装在开会，实际在听音乐 🎵",
-            "摸鱼小贴士：看似在认真看文档，其实在看小说 📚",
-            "摸鱼小贴士：装作在写报告，实际在刷视频 📱"
+            "渔小贴士：假装在键盘上打字，实际上是在玩贪吃蛇 🐍",
+            "渔小贴士：把Excel打开，其实在玩2048 🎮",
+            "渔小贴士：戴着耳机假装在开会，实际在听音乐 🎵",
+            "渔小贴士：看似在认真看文档，其实在看小说 📚",
+            "渔小贴士：装作在写报告，实际在刷视频 📱"
           ][Math.floor(Math.random() * 5)]}
         </div>
 

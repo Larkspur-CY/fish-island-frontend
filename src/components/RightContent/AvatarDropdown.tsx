@@ -262,8 +262,8 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({menu}) => {
         if (currentUser.userRole == "admin") {
           const adminTitle = {
             titleId: "-1",
-            name: '摸鱼监督员',
-            description: '摸鱼监督员',
+            name: '渔监督员',
+            description: '渔监督员',
             level: 1,
             experience: 0,
             createTime: new Date().toISOString(),
@@ -345,7 +345,7 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({menu}) => {
   const [siteConfig, setSiteConfig] = useState(() => {
     const savedConfig = localStorage.getItem('siteConfig');
     return savedConfig ? JSON.parse(savedConfig) : {
-      siteName: '摸鱼岛',
+      siteName: '渔岛',
       siteIcon: 'https://api.oss.cqbo.com/moyu/moyu.png',
       notificationEnabled: true
     };
@@ -353,7 +353,7 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({menu}) => {
 
   // 添加默认网站配置
   const defaultSiteConfig = {
-    siteName: '摸鱼岛',
+    siteName: '渔岛',
     siteIcon: 'https://api.oss.cqbo.com/moyu/moyu.png',
     notificationEnabled: true
   };
@@ -537,9 +537,9 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({menu}) => {
         setHasCheckedIn(true);
         // 根据用户VIP状态显示不同的提示信息
         if (currentUser?.vip) {
-          message.success('摸鱼打卡成功！获得 20（10 点可用积分）积分');
+          message.success('渔打卡成功！获得 20（10 点可用积分）积分');
         } else {
-          message.success('摸鱼打卡成功！获得 10 积分');
+          message.success('渔打卡成功！获得 10 积分');
         }
         // 更新用户信息
         const userInfo = await getLoginUserUsingGet();
@@ -1688,7 +1688,7 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({menu}) => {
                     {moment(currentUser.createTime).format('YYYY年MM月DD日')}
                   </div>
                   <div className={eggDaysContainerStyle}>
-                    <span>已经在摸鱼岛生活了 </span>
+                    <span>已经在渔岛生活了 </span>
                     <span className={eggDaysCountStyle}>
                       {moment().diff(moment(currentUser.createTime), 'days')} 天
                     </span>
@@ -1708,7 +1708,7 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({menu}) => {
         </Form>
       </Modal>
 
-      <Tooltip title={hasCheckedIn ? '今日已完成摸鱼打卡' : '点击摸鱼打卡'}>
+      <Tooltip title={hasCheckedIn ? '今日已完成渔打卡' : '点击渔打卡'}>
         <div
           className={checkinButtonStyle}
           onClick={(e) => {
@@ -1721,7 +1721,7 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({menu}) => {
             {hasCheckedIn ? '🐟' : ''}
           </span>
           <span className="checkin-text">
-            {hasCheckedIn ? '已打卡' : '摸鱼🐟'}
+            {hasCheckedIn ? '已打卡' : '渔🐟'}
           </span>
         </div>
       </Tooltip>
@@ -2050,7 +2050,7 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({menu}) => {
 
                   // 使用setTimeout确保localStorage更新完成后再设置标题
                   setTimeout(() => {
-                    document.title = defaultSettings.title || '摸鱼岛';
+                    document.title = defaultSettings.title || '渔岛';
                   }, 0);
 
                   // 触发自定义事件，通知其他组件网站设置已更新

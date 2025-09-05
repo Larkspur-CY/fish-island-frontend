@@ -37,11 +37,11 @@ const listenRouteChange = () => {
 
 
     // 更新 meta 描述
-    let description = '摸鱼岛 - 一个有趣的在线游戏平台，提供多种休闲游戏和社交功能';
+    let description = '渔岛 - 一个有趣的在线游戏平台，提供多种休闲游戏和社交功能';
     if (pathname.startsWith('/game')) {
-      description = '摸鱼岛游戏中心 - 提供五子棋、2048、模拟赛车等多种休闲游戏';
+      description = '渔岛游戏中心 - 提供五子棋、2048、模拟赛车等多种休闲游戏';
     } else if (pathname === '/chat') {
-      description = '摸鱼室 - 与好友聊天、分享生活趣事的社交空间';
+      description = '渔室 - 与好友聊天、分享生活趣事的社交空间';
     }
 
     // 更新 meta 描述

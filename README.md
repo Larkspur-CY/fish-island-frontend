@@ -6,15 +6,15 @@
 
 
 <p align="center">
-  <a href="https://github.com/lhccong/fish-island-backend"><img src="./public/img/moyu.png" width="300" height="250" alt="摸鱼岛 logo"></a>
+  <a href="https://github.com/lhccong/fish-island-backend"><img src="./public/img/moyu.png" width="300" height="250" alt="渔岛 logo"></a>
 </p>
 
 
 
 
-# 摸鱼岛
+# 渔岛
 
-_✨ 开源🌟一站式摸鱼网 ✨_
+_✨ 开源🌟一站式渔网 ✨_
 
 <p align="center">
   <a href="https://github.com/lhccong/fish-island-backend#部署">部署教程</a>
@@ -68,7 +68,7 @@ _✨ 开源🌟一站式摸鱼网 ✨_
   + [✅] 什么值得买热榜
   + [✅] 待补充...
 2. 每日待办功能。
-3. 摸鱼聊天室：
+3. 渔聊天室：
   + [✅] 发送 emoji 表情包
   + [✅] 发送搜狗在线表情包
   + [✅] 支持网站链接解析
@@ -80,7 +80,7 @@ _✨ 开源🌟一站式摸鱼网 ✨_
   + [✅] 五子棋、象棋对战邀请功能
   + [✅] 积分红包🧧发送功能
   + [✅] 支持用户 CV 发送图片功能
-4. 摸鱼阅读：
+4. 渔阅读：
   + [✅] 在线搜书功能
   + [✅] 小窗口观看功能
   + [✅] 支持自定义书源
@@ -101,7 +101,7 @@ _✨ 开源🌟一站式摸鱼网 ✨_
   + [✅] 下班薪资计算器（放假倒计时）
   + [✅] 修改网站图标
   + [✅] 网站标题闪烁消息提醒
-  + [✅] 摸鱼初始页
+  + [✅] 渔初始页
 
 ## 截图展示
 
@@ -113,11 +113,11 @@ _✨ 开源🌟一站式摸鱼网 ✨_
 
 <img src="/public/img/image-20250426170619142.png" alt="image-20250426170619142" style="zoom: 33%;" />
 
-### 摸鱼室
+### 渔室
 
 <img src="/public/img/image-20250426171114575.png" alt="image-20250426171114575" style="zoom:33%;" />
 
-### 摸鱼阅读
+### 渔阅读
 
 <img src="/public/img/image-20250426170827125.png" alt="image-20250426170827125" style="zoom:33%;" />
 

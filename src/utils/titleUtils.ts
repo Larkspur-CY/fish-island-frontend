@@ -14,17 +14,17 @@ interface Title {
 export const getLevelEmoji = (level: number): string => {
   switch (level) {
     case 12:
-      return '🔱'; // 摸鱼祖师
+      return '🔱'; // 渔祖师
     case 11:
-      return '✨'; // 摸鱼天尊
+      return '✨'; // 渔天尊
     case 10:
-      return '🌟'; // 摸鱼圣人
+      return '🌟'; // 渔圣人
     case 9:
-      return '🌈'; // 摸鱼仙君
+      return '🌈'; // 渔仙君
     case 8:
-      return '🏮'; // 摸鱼尊者
+      return '🏮'; // 渔尊者
     case 7:
-      return '👑'; // 摸鱼真人
+      return '👑'; // 渔真人
     case 6:
       return '💫';
     case 5:
@@ -85,23 +85,23 @@ export const getTitleTagProperties = (isAdmin: boolean, level: number, titleId?:
           tagEmoji = '😇';
           tagClass = 'titleTagInvestor';
           break;
-        case '2': // 首席摸鱼官
+        case '2': // 首席渔官
           tagEmoji = '🏆';
           tagClass = 'titleTagChief';
           break;
-        case '3': // 白金摸鱼官
+        case '3': // 白金渔官
           tagEmoji = '💎';
           tagClass = 'titleTagPlatinum';
           break;
-        case '4': // 梦幻摸鱼官
+        case '4': // 梦幻渔官
           tagEmoji = '🌟';
           tagClass = 'titleTagGold';
           break;
-        case '5': // 摸鱼共建者
+        case '5': // 渔共建者
           tagEmoji = '🛠️';
           tagClass = 'titleTagBuilder';
           break;
-        case '6': // 摸鱼行刑官
+        case '6': // 渔行刑官
           tagEmoji = '⚔️';
           tagClass = 'titleTagExecutioner';
           break;
@@ -109,11 +109,11 @@ export const getTitleTagProperties = (isAdmin: boolean, level: number, titleId?:
           tagEmoji = '🌸';
           tagClass = 'titleTagGamer';
           break;
-        case '8': // 摸鱼点子王
+        case '8': // 渔点子王
           tagEmoji = '💡';
           tagClass = 'titleTagIdeaKing';
           break;
-        case '9': // 摸鱼大法师
+        case '9': // 渔大法师
           tagEmoji = '💀';
           tagClass = 'titleTagWizard';
           break;
@@ -125,7 +125,7 @@ export const getTitleTagProperties = (isAdmin: boolean, level: number, titleId?:
           tagEmoji = '🍔';
           tagClass = 'titleTagBurgerKing';
           break;
-        case '12': // 摸鱼铲屎官
+        case '12': // 渔铲屎官
           tagEmoji = '🦊';
           tagClass = 'titleTagFox';
           break;
@@ -149,32 +149,32 @@ export const getTitleTagProperties = (isAdmin: boolean, level: number, titleId?:
 
   switch (level) {
     case 12:
-      tagText = '摸鱼皇帝';
+      tagText = '渔皇帝';
       tagEmoji = '🔱';
       tagClass = 'levelTagGrandMaster';
       break;
     case 11:
-      tagText = '摸鱼天尊';
+      tagText = '渔天尊';
       tagEmoji = '✨';
       tagClass = 'levelTagCelestial';
       break;
     case 10:
-      tagText = '摸鱼圣人';
+      tagText = '渔圣人';
       tagEmoji = '🌟';
       tagClass = 'levelTagSaint';
       break;
     case 9:
-      tagText = '摸鱼仙君';
+      tagText = '渔仙君';
       tagEmoji = '🌈';
       tagClass = 'levelTagImmortal';
       break;
     case 8:
-      tagText = '摸鱼尊者';
+      tagText = '渔尊者';
       tagEmoji = '🏮';
       tagClass = 'levelTagElder';
       break;
     case 7:
-      tagText = '摸鱼真人';
+      tagText = '渔真人';
       tagEmoji = '👑';
       tagClass = 'levelTagMaster';
       break;
@@ -189,7 +189,7 @@ export const getTitleTagProperties = (isAdmin: boolean, level: number, titleId?:
       tagClass = 'levelTagPro';
       break;
     case 4:
-      tagText = '摸鱼专家 ';
+      tagText = '渔专家 ';
       tagEmoji = '🎣';
       tagClass = 'levelTagAdvanced';
       break;
@@ -199,7 +199,7 @@ export const getTitleTagProperties = (isAdmin: boolean, level: number, titleId?:
       tagClass = 'levelTagBeginner';
       break;
     case 2:
-      tagText = '摸鱼学徒';
+      tagText = '渔学徒';
       tagEmoji = '🐣';
       tagClass = 'levelTagNewbie';
       break;
