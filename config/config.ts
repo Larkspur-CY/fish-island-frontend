@@ -11,7 +11,6 @@ export default defineConfig({
    * @doc https://umijs.org/docs/api/config#hash
    */
   hash: true,
-  esbuildMinifyIIFE: true,
   /**
    * @name 兼容性设置
    * @description 设置 ie11 不一定完美兼容，需要检查自己使用的所有依赖
@@ -73,7 +72,7 @@ export default defineConfig({
    * @name layout 插件
    * @doc https://umijs.org/docs/max/layout-menu
    */
-  title: '摸鱼岛',
+  title: '渔岛',
   layout: {
     locale: true,
     ...defaultSettings,
@@ -143,8 +142,8 @@ export default defineConfig({
     { name: 'theme-color', content: '#1890ff' },
     { name: 'apple-mobile-web-app-capable', content: 'yes' },
     { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
-    { name: 'apple-mobile-web-app-title', content: '摸鱼岛' },
-    { name: 'application-name', content: '摸鱼岛' },
+    { name: 'apple-mobile-web-app-title', content: '渔岛' },
+    { name: 'application-name', content: '渔岛' },
     { name: 'msapplication-TileColor', content: '#1890ff' },
     { name: 'msapplication-config', content: '/browserconfig.xml' }
   ],
